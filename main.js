@@ -18,6 +18,7 @@ class MyHeader extends HTMLElement {
             <img src="media/images/construction.webp" class="banner">
             <img src="media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             <link rel="icon" type="image/x-con" href="media/images/favicon.png">
+            <link rel="stylesheet" type="text/css" href="styles/main.css">
                 
             <div class="menu">
                 <ul class="menu-buttons">
@@ -105,6 +106,7 @@ class MyHeader2 extends HTMLElement {
             <img src="../../media/images/construction.webp" class="banner">
             <img src="../../media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             <link rel="icon" type="image/x-con" href="../../media/images/favicon.png">
+            <link rel="stylesheet" type="text/css" href="styles/main.css">
 
             <div class="menu">
                 <ul class="menu-buttons">
