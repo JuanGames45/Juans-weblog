@@ -1,0 +1,25 @@
+body::before{
+	content: " "; 
+	width: 100vw; 
+	height: 100vh; 
+	display: block; 
+	position: fixed; 
+	background-image: url('https://media.giphy.com/media/JTiov5UXnJyKI/source.gif'); 
+	background-size: cover; 
+	mix-blend-mode: screen; 
+	pointer-events: none; 
+	z-index: 1; 
+	filter: blur(3px);
+}
+body::after{
+	content: " ";
+	width: 100vw;
+	display: block;
+	position: fixed;
+	height: 10vw;
+	background-image: url('https://tinyimg.io/i/Cnq9jSm.png');
+	background-size: cover;
+	bottom: -50px;
+	z-index: 0;
+	pointer-events: none;
+}
