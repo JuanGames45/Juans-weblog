@@ -197,7 +197,7 @@ a:hover{
 time{
   font-size: 27px;
   font-family: 'Times New Roman', sans-serif;
-  font-style: italic;
+  font-style: bold;
   margin-top: 0px;
   
 }
@@ -209,7 +209,7 @@ time{
 }
 
 marquee{
-  font-size: 21px;
+  font-size: 25px;
   color: black;
   font-family: 'Ms Sans win 95';
   margin-right: 40px;
@@ -222,8 +222,4 @@ marquee{
 
 .post-title{
   color: black;
-}
-
-marquee{
-  font-size: 25px;
 }
