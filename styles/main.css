@@ -12,8 +12,13 @@ body{
 }
 
 @font-face {
-  font-family: MS Sans win 95;
-  src: url("media/fonts/Ms-Sans-Serif-8pt");
+  font-family: 'MS Sans win 95';
+  src: url(media/fonts/Ms-Sans-Serif-8pt);
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(/media/fonts/Oswald-Regular.ttf);
 }
 
 /*Cositas del Menú*/
