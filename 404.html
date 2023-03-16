@@ -14,20 +14,44 @@
 
     <!--Personalización del sitio (CSS y favicon respectivamente)-->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="icon" type="image/x-con" href="media/images/favicon.png">
 
     <style>
 
+      .back{
+        margin: 15px auto;
+        width: 1070px;
+        background-color: white;
+      }
+
       #content{
-        border-right: none;
-        margin-top: 40px;
-        float: center;
-        text-align: center;
         width: 97%;
-        
+        float: none;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+        border-right: none;
       }
 
       p{
         font-size: 30px;
+      }
+      
+      #button{
+        font-size: 28px;
+        font-family: 'Oswald', 'sans-sherif';
+        border-left: none;
+        border-top: none;
+        background: url('/media/images/buttons/404-return-bg.png') no-repeat;
+        background-position: center;
+      }
+
+      #button a{
+      color: black;
+      }
+
+      #button:hover{
+        -webkit-filter: brightness(85%);
       }
 
     </style>
@@ -38,25 +62,28 @@
     <div class="back">
       <div>
 
-        <script type="module" src="404.js"></script>
-        <my-header></my-header>
+        <script type="module" src="main.js"></script>
         
-
-     </div>
+      </div>
 
       <div id="content">
 
+       
+
         <h1>Error 404</h1>
        
-        <p>The page you were looking for is either deleted or doesn't even exists.
+        <p>The requested URL was not found.
           <br>
           Try searching again, or whatever you want, idk.</p>
         <br>
         
         <img src="media/images/idk.png" width="50%">
+
+        <p id="button"><a href="index.html">←Home</a></p>
+
         
       </div id="content">
-      <my-footer></my-footer>
+      
     </div class="back">
    
   </body>
