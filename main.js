@@ -18,14 +18,14 @@ class MyHeader extends HTMLElement {
             <img src="media/images/construction.webp" class="banner">
             <img src="media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             <link rel="icon" type="image/x-con" href="media/images/favicon.png">
-            <link rel="stylesheet" type="text/css" href="www.juangames.com/styles/main.css">
+            <link rel="stylesheet" type="text/css" href="http://www.juangames.com/styles/main.css">
                 
             <div class="menu">
                 <ul class="menu-buttons">
-                    <a href="www.juangames.com/index.html"><li class="menu-button">Home</li></a>
-                    <a href="www.juangames.com/blog.html"><li class="menu-button">Blog</li></a>
-                    <a href="www.juangames.com/art.html"><li class="menu-button">Art</li></a>
-                    <a href="www.juangames.com/about.html"><li class="menu-button">About</li></a>
+                    <a href="http://www.juangames.com/index.html"><li class="menu-button">Home</li></a>
+                    <a href="http://www.juangames.com/blog.html"><li class="menu-button">Blog</li></a>
+                    <a href="http://www.juangames.com/art.html"><li class="menu-button">Art</li></a>
+                    <a href="http://www.juangames.com/about.html"><li class="menu-button">About</li></a>
                 </ul>
     
             </div>           
@@ -65,13 +65,13 @@ class MyFooter extends HTMLElement {
         <div id="le-footer">
             <!--Botones aquí -->
             <div id="td1">
-                <img src="media/images/buttons/notepad2.gif" width="120" height="40" id="footer">
-                <img src="media/images/buttons/any_browser.gif" width="120" height="40">
-                <img src="media/images/buttons/besteyes.gif" width="120" height="40">
+                <img src="http://www.juangames.com/media/images/buttons/notepad2.gif" width="120" height="40" id="footer">
+                <img src="http://www.juangames.com/media/images/buttons/any_browser.gif" width="120" height="40">
+                <img src="http://www.juangames.com/media/images/buttons/besteyes.gif" width="120" height="40">
                 <br>
-                <img src="media/images/buttons/bl64.gif" width="119" height="40">
-                <a href="mailto:contact@juangames.com"><img src="media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
-                <img src="media/images/buttons/blinchik.gif" width="119" height="40">
+                <img src="http://www.juangames.com/media/images/buttons/bl64.gif" width="119" height="40">
+                <a href="mailto:contact@juangames.com"><img src="http://www.juangames.com/media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
+                <img src="http://www.juangames.com/media/images/buttons/blinchik.gif" width="119" height="40">
 
             </div>
 
@@ -85,7 +85,7 @@ class MyFooter extends HTMLElement {
             <div id="td3">
             <br><br><br><br><br><br>
             <p id="td3">© 2022-2023 Juan Games</p>
-            <a href="https://pages.github.com/"><img src="media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
+            <a href="https://pages.github.com/"><img src="http://www.juangames.com/media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
             
             </div>
         </div id="le-footer">
