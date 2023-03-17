@@ -15,8 +15,8 @@ class MyHeader extends HTMLElement {
         <header>
 
             <title>Juan Games Blog</title>
-            <img src="media/images/construction.webp" class="banner">
-            <img src="media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
+            <img src="https://www.juangames.com/media/images/construction.webp" class="banner">
+            <img src="https://www.juangames.com/media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
             <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
                 
@@ -48,7 +48,7 @@ class MySidebar extends HTMLElement {
         </div>
         <br>
         <div>
-            <a href="mailto:Contact@juangames.com"><img src="media/images/buttons/email-icon.gif" width="120" heigh="40"></a>
+            <a href="mailto:Contact@juangames.com"><img src="https://www.juangames.com/media/images/buttons/email-icon.gif" width="120" heigh="40"></a>
         </div>
         </div id="sidebar">`
         
