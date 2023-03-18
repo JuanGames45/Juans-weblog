@@ -70,7 +70,7 @@ class MyFooter extends HTMLElement {
                 <img src="https://www.juangames.com/media/images/buttons/besteyes.gif" width="120" height="40">
                 <br>
                 <img src="https://www.juangames.com/media/images/buttons/bl64.gif" width="119" height="40">
-                <a href="mailto:contact@juangames.com"><img src="http://www.juangames.com/media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
+                <a href="mailto:contact@juangames.com"><img src="https://www.juangames.com/media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
                 <img src="https://www.juangames.com/media/images/buttons/blinchik.gif" width="119" height="40">
 
             </div>
