@@ -1,4 +1,3 @@
-//Modificar aquí modificará todo el sitio web
 var links = document.querySelectorAll(".link");
 for(link of links){
   link.addEventListener("click", function(e){
@@ -17,8 +16,7 @@ class MyHeader extends HTMLElement {
             <title>Juan Games Blog</title>
             <img src="https://www.juangames.com/media/images/construction.webp" class="banner">
             <img src="https://www.juangames.com/media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
-            <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
-            <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
+            <link rel="icon" type="image/x-con" href="media/images/favicon.png">
                 
             <div class="menu">
                 <ul class="menu-buttons">
@@ -67,7 +65,7 @@ class MyFooter extends HTMLElement {
             <div id="td1">
                 <img src="https://www.juangames.com/media/images/buttons/notepad2.gif" width="120" height="40" id="footer">
                 <img src="https://www.juangames.com/media/images/buttons/any_browser.gif" width="120" height="40">
-                <img src="https://www.juangames.com/media/images/buttons/besteyes.gif" width="120" height="40">
+                <img src="media/images/buttons/besteyes.gif" width="120" height="40">
                 <br>
                 <img src="https://www.juangames.com/media/images/buttons/bl64.gif" width="119" height="40">
                 <a href="mailto:contact@juangames.com"><img src="https://www.juangames.com/media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
@@ -85,7 +83,7 @@ class MyFooter extends HTMLElement {
             <div id="td3">
             <br><br><br><br><br><br>
             <p id="td3">© 2022-2023 Juan Games</p>
-            <a href="https://pages.github.com/"><img src="https://www.juangames.com/media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
+            <a href="https://pages.github.com/" target="_blank"><img src="media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
             
             </div>
         </div id="le-footer">
@@ -106,7 +104,6 @@ class MyHeader2 extends HTMLElement {
             <img src="../../media/images/construction.webp" class="banner">
             <img src="../../media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             <link rel="icon" type="image/x-con" href="../../media/images/favicon.png">
-            <link rel="stylesheet" type="text/css" href="styles/main.css">
 
             <div class="menu">
                 <ul class="menu-buttons">
