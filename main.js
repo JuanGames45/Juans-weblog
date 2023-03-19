@@ -24,7 +24,7 @@ class MyHeader extends HTMLElement {
                 
             <div class="menu">
                 <ul class="menu-buttons">
-                    <a href="https://www.juangames.com/index.html"><li class="menu-button">Home</li></a>
+                    <a href="https://www.juangames.com"><li class="menu-button">Home</li></a>
                     <a href="https://www.juangames.com/blog.html"><li class="menu-button">Blog</li></a>
                     <a href="https://www.juangames.com/art.html"><li class="menu-button">Art</li></a>
                     <a href="https://www.juangames.com/about.html"><li class="menu-button">About</li></a>
