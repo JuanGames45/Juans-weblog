@@ -97,3 +97,13 @@ class MyFooter extends HTMLElement {
     }
 }
 customElements.define('my-footer', MyFooter)
+
+class ReadMore extends HTMLElement {
+    connectedCallback () {
+        this.innerHTML = `
+    
+        <button class="button">Read More>></button>`
+        
+    }
+}
+customElements.define('read-more', ReadMore)
