@@ -10,7 +10,7 @@
             <link>https://www.juangames.com/blog/2023/2023-yeah-about-that.html</link>
             <description>I have no idea lmao.</description>
             <pubDate>16th of February, 2023</pubDate>
-            <contect:encoded>
+            <content:encoded>
             <img src="https://www.juangames.com/media/images/corolle-2023.gif" width="98%">
             <p>I'm gonna be honest, I have no idea on how to start this blog post, the proof being that I took a whole
                      damm week to even start writing this. Hell, I'm finishing this on a February 16th.</p>
@@ -21,6 +21,7 @@
                     </p>
         
                     <p>But I ended up forgetting about it and procrastinated with this post...</p>
+            </content:encoded>
 
         </item>
     </channel>
