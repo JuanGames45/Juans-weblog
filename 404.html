@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   
@@ -14,16 +13,10 @@
     <meta charset="utf-8">
 
     <!--Personalización del sitio (CSS y favicon respectivamente)-->
-    <link rel="stylesheet" type="text/css" href="https://juangames45.github.io/Juan-Games-Blog/styles/main.css">
-    <link rel="icon" type="image/x-con" href="https://juangames45.github.io/Juan-Games-Blog/media/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
+    <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
 
     <style>
-
-      .back{
-        margin: 15px auto;
-        width: 1070px;
-        background-color: white;
-      }
 
       #content{
         width: 97%;
@@ -38,22 +31,31 @@
         font-size: 30px;
       }
       
-      #button{
+      #buttons{
+        text-align: center;
+      }
+
+      .button{
         font-size: 28px;
         font-family: 'Oswald', 'sans-sherif';
-        border-left: none;
-        border-top: none;
-        background: url('https://juangames45.github.io/Juan-Games-Blog/media/images/buttons/404-return-bg.png') no-repeat;
+        background: url('https://www.juangames.com/media/images/buttons/404-return-bg.png') no-repeat;
         background-position: center;
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        margin: 5px;
+        padding: 10px;
       }
 
-      #button a{
+      a{
       color: black;
+      margin: 4px;
+      }
+      a:hover{
+        color: black;
       }
 
-      #button:hover{
-        -webkit-filter: brightness(85%);
-      }
+     
 
     </style>
     
@@ -61,6 +63,7 @@
   
   <body>
     <div class="back">
+      
 
       <div id="content">
 
@@ -73,10 +76,10 @@
           Try searching again, or whatever you want, idk.</p>
         <br>
         
-        <img src="https://juangames45.github.io/Juan-Games-Blog/media/images/idk.png" width="50%">
-
-        <p id="button"><a href="https://juangames45.github.io/Juan-Games-Blog/index.html">←Home</a></p>
-
+        <img src="https://www.juangames.com/media/images/idk.png" width="50%">
+        <ul id="buttons">
+        <a href="index.html"><li class="button">←Home</li></a>
+        </ul>
         
       </div id="content">
       
