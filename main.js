@@ -24,7 +24,7 @@ class MyHeader extends HTMLElement {
                 
             <div class="menu">
                 <ul class="menu-buttons">
-                    <a href="https://www.juangames.com"><li class="menu-button">Home</li></a>
+                    <a href="https://www.juangames.com/index.html"><li class="menu-button">Home</li></a>
                     <a href="https://www.juangames.com/blog.html"><li class="menu-button">Blog</li></a>
                     <a href="https://www.juangames.com/art.html"><li class="menu-button">Art</li></a>
                     <a href="https://www.juangames.com/about.html"><li class="menu-button">About</li></a>
@@ -45,13 +45,15 @@ class MySidebar extends HTMLElement {
         <div id="sidebar">
             
         <div>
-            <h3>Search on this blog</h3>
-            <input placeholder="Search">
+            <h3 id="recent">Follow me on my social media:</h3>
+            <br>
+            <a href="https://juangames45.newgrounds.com" target="_blank"><img src="media/images/buttons/ng_tank.gif" width="176" heigh="62" class="imglink" id="sidebutton"></a>
+            <br>
+            <a href="placeholder" target="_blank"><img src="media/images/buttons/button-background.png" width="176" heigh="62" class="imglink" id="sidebutton"></a>
+            <br>
+            <a href="placeholder" target="_blank"><img src="media/images/buttons/button-background.png" width="176" heigh="62" class="imglink" id="sidebutton"></a>
         </div>
-        <br>
-        <div>
-            <a href="mailto:Contact@juangames.com"><img src="https://www.juangames.com/media/images/buttons/email-icon.gif" width="120" heigh="40"></a>
-        </div>
+        <p id="img_comment">This is just a placeholder, only the NG button works and the image is stolen lmao</p>
         </div id="sidebar">`
         
     }
@@ -78,8 +80,10 @@ class MyFooter extends HTMLElement {
             </div>
 
             <!--Webcounter y rss aquí-->
-            <div id="td2"><!-- hitwebcounter Code START -->
-
+            <div id="td2">
+            <!-- hitwebcounter Code START -->
+            <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=8386870&style=0001&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>
             </div>    
             <br>
             <br>
