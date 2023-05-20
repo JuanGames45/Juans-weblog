@@ -38,7 +38,7 @@ body{
   
 }
 .menu li{
-  background: url(https://www.juangames.com/media/images/buttons/menu-button-background.png) no-repeat;
+  
   color: black;
   text-align: center;
   padding: 10px;
@@ -54,12 +54,7 @@ body{
   text-decoration: none;
 }
 
-.menu li:hover{
-  -webkit-filter: brightness(70%);
-  border-left: none;
-  border-top: none;
-  
-}
+
 
 .imglink:hover{
   -webkit-filter: brightness(70%);
@@ -228,3 +223,5 @@ marquee{
 .post-title{
   color: black;
 }
+
+
