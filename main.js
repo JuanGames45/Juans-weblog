@@ -24,10 +24,11 @@ class MyHeader extends HTMLElement {
                 
             <div class="menu">
                 <ul class="menu-buttons">
-                    <a href="https://www.juangames.com/index.html"><li class="menu-button">Home</li></a>
-                    <a href="https://www.juangames.com/blog.html"><li class="menu-button">Blog</li></a>
-                    <a href="https://www.juangames.com/art.html"><li class="menu-button">Art</li></a>
-                    <a href="https://www.juangames.com/about.html"><li class="menu-button">About</li></a>
+                    <li class="imglink"><a href="https://www.juangames.com/index.html"><img src="https://www.juangames.com/media/images/buttons/home-button.png" width="90px" height="60px"></a></li>
+                    <a href="https://www.juangames.com/blog.html"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/blog-button.png"></li></a>
+                    <a href="https://www.juangames.com/art.html"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/art-button.png"></li></a>
+                    <li class="imglink"><a href="https://www.juangames.com/about.html"><img src="https://www.juangames.com/media/images/buttons/about-button.png"></a></li>
+
                 </ul>
     
             </div>           
@@ -45,7 +46,7 @@ class MySidebar extends HTMLElement {
         <div id="sidebar">
             
         <div>
-            <h3 id="recent">Follow me on my social media:</h3>
+            <h3 id="recent">My social media:</h3>
             <br>
             <a href="https://juangames45.newgrounds.com" target="_blank"><img src="https://www.juangames.com/media/images/buttons/ng-button.gif" width="176" heigh="62" class="imglink" id="sidebutton"></a>
             <br>
@@ -53,7 +54,7 @@ class MySidebar extends HTMLElement {
             <br>
             <a href="" target="_blank"><img src="https://www.juangames.com/media/images/buttons/button-background.png" width="176" heigh="62" class="imglink" id="sidebutton"></a>
         </div>
-        <p id="img_comment">This is just a placeholder, only the NG button works and the image is stolen lmao</p>
+        <p id="img_comment">(This is just a placeholder, only the NG button works properly)</p>
         </div id="sidebar">`
         
     }
