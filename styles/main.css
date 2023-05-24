@@ -60,6 +60,10 @@ body{
   -webkit-filter: brightness(70%);
 }
 
+.imglink:active{
+  -webkit-filter: brightness(55%);
+}
+
 /*Contenedor de la pagina*/
 /*Estandar de los años 2000 es 700px, alternativa 1070px o 900px*/
 .back{
@@ -173,6 +177,10 @@ a{
 
 a:hover{
   color: #4e7dff;
+}
+
+a:active{
+  color:#1d3d97;
 }
 
 /*Botones*/
