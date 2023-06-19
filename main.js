@@ -50,7 +50,7 @@ class MySidebar extends HTMLElement {
             <br>
             <a href="https://juangames45.newgrounds.com" target="_blank"><img src="https://www.juangames.com/media/images/buttons/ng-button.gif" width="176" heigh="62" class="imglink" id="sidebutton"></a>
             <br>
-            <a href="" target="_blank"><img src="https://www.juangames.com/media/images/buttons/button-background.png" width="176" heigh="62" class="imglink" id="sidebutton"></a>
+            <a href="https://twitter.com/JuanGames45" target="_blank"><img src="https://www.juangames.com/media/images/buttons/twitter-button.gif" width="176" heigh="62" class="imglink" id="sidebutton"></a>
             <br>
             <a href="" target="_blank"><img src="https://www.juangames.com/media/images/buttons/button-background.png" width="176" heigh="62" class="imglink" id="sidebutton"></a>
         </div>
