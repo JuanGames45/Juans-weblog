@@ -54,7 +54,7 @@ class MySidebar extends HTMLElement {
             <br>
             <a href="" target="_blank"><img src="https://www.juangames.com/media/images/buttons/button-background.png" width="176" heigh="62" class="imglink" id="sidebutton"></a>
         </div>
-        <p id="img_comment">(This is just a placeholder, only the NG button works properly)</p>
+        <p id="img_comment">(only one button left haha)</p>
         </div id="sidebar">`
         
     }
