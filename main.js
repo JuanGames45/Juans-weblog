@@ -31,8 +31,8 @@ class MyHeader extends HTMLElement {
                     </li>
                     <a href="https://www.juangames.com/blog"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/blog-button.png"></li></a>
                     <a href="https://www.juangames.com/art"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/art-button.png"></li></a>
-                    <li id="imgwrapper">
-                        <a href="https://www.juangames.com/about.html">
+                    <li >
+                        <a href="https://www.juangames.com/about.html"id="imgwrapper">
                             <img src="https://www.juangames.com/media/images/buttons/about-button.png" class="hover-hidden">
                             <img src="https://www.juangames.com/media/images/buttons/about-button-press.png" class="hover-only" id="subimglink">
                             
@@ -88,8 +88,8 @@ class MyFooter extends HTMLElement {
                 <img src="https://www.juangames.com/media/images/buttons/besteyes.gif" width="120" height="40">
                 <br>
                 <img src="https://www.juangames.com/media/images/buttons/bl64.gif" width="119" height="40">
-                <a href="mailto:contact@juangames.com"><img src="https://www.juangames.com/media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
-                <img src="https://www.juangames.com/media/images/buttons/blinchik.gif" width="119" height="40">
+                <a href="mailto:juangames@duck.com"><img src="https://www.juangames.com/media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
+                <a href="https://pages.github.com/" target="_blank"><img src="https://www.juangames.com/media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
 
             </div>
 
@@ -105,7 +105,7 @@ class MyFooter extends HTMLElement {
             <div id="td3">
             <br><br><br><br><br><br>
             <p id="td3">© 2022-2023 Juan Games</p>
-            <a href="https://pages.github.com/" target="_blank"><img src="https://www.juangames.com/media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
+            
             
             </div>
         </div id="le-footer">
