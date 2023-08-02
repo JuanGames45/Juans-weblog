@@ -59,7 +59,7 @@ class MySidebar extends HTMLElement {
         <div id="sidebar">
             
         <div>
-            <h3 id="recent">My social media:</h3>
+            <h3 id="recent">Social media:</h3>
             <br>
             <a href="https://juangames45.newgrounds.com" target="_blank"><img src="https://www.juangames.com/media/images/buttons/ng-button.gif" width="176" heigh="62" class="imglink" id="sidebutton"></a>
             <br>
