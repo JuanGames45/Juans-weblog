@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+  
+  <head>
+
+    <!--Esta es la descipción de la web, autor y palabras clave respectivamente.-->
+    <meta name="description" content="This is the first time I'm making a website from scratch">
+    <meta name="author" content="Juan Games">
+    <meta name="keyword" content="blog, art, memes, artist, amateur">
+
+    <!--Indica la codificación de caractéres. Sirve para meter otros lenguajes, emojis, simbolos etc.-->
+    <meta charset="utf-8">
+
+    <!--Personalización del sitio (CSS y favicon respectivamente)-->
+    <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
     
-        <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
-    </head>
-    <body>
-        <div class="back">
-        <script type="module" src="https://www.juangames.com/main.js"></script>
-        <my-header></my-header>
-        <my-sidebar></my-sidebar>
+  </head>
+  
+  <body>
+    <div class="back">
+      <script type="module" src="main.js"></script>
+      <my-header></my-header>
+      <my-sidebar></my-sidebar>
 
-        <div id="content">
+      <div id="content">
+        <h1 id="recent">Drawings</h1>
 
-        <h1 id="recent">You're doing good lad!</h1>
-        <br>
-        <time datetime="11-6-2022">11th of June, 2022</time>
-        <br>
-        <br>
-        <br>
+        <article>
 
-        <img src="https://www.juangames.com/media/images/art/youre-doing-good-lad.png" width="98%">
+          <h2><a href="https://www.juangames.com/art/2022/youre-doing-good-lad.html" class="post-title">You're doing good lad!</a></h2>
+          <br>
+          <time datetime="11-6-2022">11th of June, 2022</time>
+          <br>
+          <br>
+          <br>
 
-        <p>Ah yes, good 'ol flower demo...</p>
+          <img src="https://www.juangames.com/media/images/art/2022/youre-doing-good-lad.png" width="98%">
 
-        </div id="content">
+          <p>Ah yes, good 'ol flower demo</p>
 
-        <my-footer></my-footer>
-        </div class="back">
-    </body>
+        </article>
+        
+      </div>
+      <my-footer></my-footer>
+    </div class="back">
+   
+  </body>
+  
 </html>
