@@ -31,8 +31,8 @@ class MyHeader extends HTMLElement {
                     </li>
                     <a href="https://www.juangames.com/blog"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/blog-button.png"></li></a>
                     <a href="https://www.juangames.com/art"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/art-button.png"></li></a>
-                    <li id="imgwrapper">
-                        <a href="https://www.juangames.com/about.html">
+                    <li >
+                        <a href="https://www.juangames.com/about.html"id="imgwrapper">
                             <img src="https://www.juangames.com/media/images/buttons/about-button.png" class="hover-hidden">
                             <img src="https://www.juangames.com/media/images/buttons/about-button-press.png" class="hover-only" id="subimglink">
                             
