@@ -17,7 +17,7 @@ class MyHeader extends HTMLElement {
         </head>
         <header>
 
-            <title>Juan Games Blog</title>
+            <title>Juan Games's Blog</title>
             <img src="https://www.juangames.com/media/images/construction.webp" class="banner">
             <img src="https://www.juangames.com/media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             
