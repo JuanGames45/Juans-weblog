@@ -14,10 +14,11 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         <head>
             <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
+            <title>Juan Games's Blog</title>
         </head>
         <header>
 
-            <title>Juan Games's Blog</title>
+            
             <img src="https://www.juangames.com/media/images/construction.webp" class="banner">
             <img src="https://www.juangames.com/media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             
