@@ -14,7 +14,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         <head>
             <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
-            <title>Juan Games's Blog</title>
+            <title>Juan Games Blog</title>
         </head>
         <header>
 
