@@ -1,4 +1,4 @@
-*Poner background color solo en ID content a menos que sea necesario*/
+/*Poner background color solo en ID content a menos que sea necesario*/
 /*Hay que poner id back para el fondo blanco de toda la pagina, así será todo por bloques*/
 * {
   box-sizing: border-box;
@@ -266,8 +266,6 @@ a:active{
 .button:hover{
   -webkit-filter: brightness(85%);
 }
-
-
 
 time{
   font-size: 27px;
