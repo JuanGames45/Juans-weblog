@@ -13,12 +13,12 @@ class MyHeader extends HTMLElement {
     connectedCallback () {
         this.innerHTML = `
         <head>
+            
             <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
-            <title>Juan Games Blog</title>
         </head>
         <header>
 
-            
+            <title>Juan Games Blog</title>
             <img src="https://www.juangames.com/media/images/construction.webp" class="banner">
             <img src="https://www.juangames.com/media/images/backgrounds/banner.png" height="672" width="1920" class="banner">
             
@@ -33,14 +33,19 @@ class MyHeader extends HTMLElement {
                     <a href="https://www.juangames.com/blog"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/blog-button.png"></li></a>
                     <a href="https://www.juangames.com/art"><li class="imglink"><img src="https://www.juangames.com/media/images/buttons/art-button.png"></li></a>
                     <li id="imgwrapper">
-                        <a href="https://www.juangames.com/about.html">
+                        <a href="https://www.juangames.com/about">
                             <img src="https://www.juangames.com/media/images/buttons/about-button.png" class="hover-hidden">
                             <img src="https://www.juangames.com/media/images/buttons/about-button-press.png" class="hover-only" id="subimglink">
                             
                         </a>
-                        <a href="https://www.juangames.com/about/the-site"><img src="https://www.juangames.com/media/images/buttons/about-the-site.png" class="dropdownimg" id="subimglink"></a>
+                        <a href="https://www.juangames.com/about/the-site">
+                        <img src="https://www.juangames.com/media/images/buttons/about-the-site.png" class="dropdownimg" id="subimglink"></a>
                         
-                        <a href="https://www.juangames.com/about/comm-info"><img src="https://www.juangames.com/media/images/buttons/comm-info.png" class="dropdownimg" id="subimglink"></a>
+                        <a href="https://www.juangames.com/about/about-me">
+                        <img src="https://www.juangames.com/media/images/buttons/about-me.png" class="dropdownimg" id="subimglink"></a>
+                        
+                        <a href="https://www.juangames.com/about/comm-info">
+                        <img src="https://www.juangames.com/media/images/buttons/comm-info.png" class="dropdownimg" id="subimglink"></a>
                     </li>
 
                 </ul>
@@ -60,6 +65,7 @@ class MySidebar extends HTMLElement {
         <div id="sidebar">
             
         <div>
+        
             <h3 id="recent">Social media:</h3>
             <br>
             <a href="https://juangames45.newgrounds.com" target="_blank"><img src="https://www.juangames.com/media/images/buttons/ng-button.gif" width="176" heigh="62" class="imglink" id="sidebutton"></a>
