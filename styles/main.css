@@ -1,4 +1,4 @@
-/*Poner background color solo en ID content a menos que sea necesario*/
+*Poner background color solo en ID content a menos que sea necesario*/
 /*Hay que poner id back para el fondo blanco de toda la pagina, así será todo por bloques*/
 * {
   box-sizing: border-box;
@@ -13,7 +13,7 @@ body{
 
 @font-face {
   font-family: 'MS Sans win 95';
-  src: url('https://www.juangames.com/media/fonts/Ms-Sans-Serif-8pt.ttf');
+  src: url(https://www.juangames.com/media/fonts/Ms-Sans-Serif-8pt.ttf);
 }
 
 @font-face {
@@ -121,6 +121,11 @@ body{
   padding-bottom: 20px;
 }
 
+[lang]{
+  unicode-bidi: bidi-override;
+  direction: ltr;
+}
+
 header .banner{
   height: 100%;
   width: 100%;
@@ -192,7 +197,17 @@ p{
   color: black;
   font-family: 'Ms Sans win 95',;
   margin-right: 20px;
-  
+}
+
+li{
+  font-size: 21px;
+  color: black;
+  font-family: 'MS Sans win 95';
+  margin-top: 5px;
+}
+
+ul{
+  margin-top: -5px;
 }
 
 h1{
@@ -202,7 +217,7 @@ h1{
 }
 
 h2{
-  font-size: 40px;
+  font-size: 45px;
   color: black;
   font-family: 'Times New Roman', sans-serif;
   margin-bottom: 0px;
@@ -228,15 +243,11 @@ a{
 
 a:hover{
   text-decoration:underline;
-  color:#ffa835
+  color:#00aea5
 }
 
 a:active{
   color:#1d3d97;
-}
-
-a:visited{
-  
 }
 
 /*Botones*/
@@ -287,5 +298,3 @@ marquee{
 .post-title{
   color: black;
 }
-
-
