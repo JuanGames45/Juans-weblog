@@ -2,6 +2,8 @@
 <html lang="en">
   
   <head>
+
+    
     <!--Esta es la descipción de la web, autor y palabras clave respectivamente.-->
     <meta name="description" content="This is the first time I'm making a website from scratch">
     <meta name="author" content="Juan Games">
@@ -11,16 +13,106 @@
     <meta charset="utf-8">
 
     <!--Personalización del sitio (CSS y favicon respectivamente)-->
-    <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
 
     <style>
         h1{
-            font-size: 100px;
             margin-right: auto;
             margin-left: auto;
             text-align: center;
         }
+
+        llll{
+          color: green;
+        }
+        lll{
+          color: black;
+        }
+        #row{
+          margin-top: -60px;
+          margin-bottom: 40px;display: block;
+        }
+        #row2{
+          margin-top: 30px;
+          margin-right: 30px;
+          height: 300px; display: block;
+          text-align: center;
+          background-color: rgb(237, 237, 237);
+          
+        }
+
+        #row2 p{
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 16px;
+          width: 100%;
+          
+        }
+       
+        #funciona-hijoepuerca{
+          text-align: left;
+          width: 100%;
+          margin-top: 195px;
+          
+        }
+        .bruh2{
+          margin-right: 30px;
+        }
+        #subtitle{
+          margin-top: 5px;
+          margin-bottom: 20px;
+        }
+
+        #format{
+          margin-left: 20px;
+          margin-right: 10px;
+          font-family: 'Courier New', Courier, monospace;
+          
+        }
+        #enbergadura{
+          background-color: rgb(237, 237, 237);
+          margin-right: 30px;
+          height: 350px;
+        }
+        #prices-wrapper{
+          background-color: rgb(237, 237, 237);
+          margin-right: 30px;
+          height: 170px;
+        }
+
+        #do{
+          float: left;
+          margin-top: -20px;
+          width: 45%;
+        }
+        #do li{
+          font-family: 'Courier New', Courier, monospace;
+        }
+
+        #dont{
+          float: right;
+          margin-top: -20px;
+          width: 55%;
+        }
+
+        #dont li{
+          font-family: 'Courier New', Courier, monospace;
+        }
+
+        h4{
+          font-family: 'Courier New', Courier, monospace;
+        }
+
+        emoji{
+          font-size: 25px;
+        }
+        
+        ul{
+          display: inline-block;
+          text-align: left;
+        }
+        
+
     </style>
     
   </head>
@@ -28,14 +120,189 @@
   <body>
     <div class="back">
         <div>
-            <script type="module" src="https://www.juangames.com/main.js"></script>
+            <script type="module" src="/main.js"></script>
         <my-header></my-header>
         <my-sidebar></my-sidebar>
         </div>
 
       <div id="content">
 
-        <h1>This page is in a wip state</h1>
+        <h1>Commission info</h1>
+        
+        <div id="row">
+          <div id="td1">
+          <h3>Status: <llll>Open</llll></h3>
+        </div>
+        <div id="td2" class="bruh2">
+          <h3>Slots: <lll>3</lll>/3</h3>
+        </div>
+        </div>
+        
+        <div id="funciona-hijoepuerca">
+          <p>Welcome, here you can see the terms and conditions if you
+            would like a commission from me.
+          </p>
+          <p>Before you commission me, please, make sure you have read
+            these terms and conditions beforehand.
+          </p>
+          
+        </div>
+        <div>
+          <h3 id="subtitle">Prices:</h3>
+          <p>Currently I offer three types of commissions:</p>
+            <div id="prices-wrapper">
+              <div id="format">
+                <p>
+                  <br>
+                  <b>Flat colors:</b> Lineart and flat color at 12$
+                  <br><br>
+                  <b>Normal:</b> Colored with cell shading at 15$
+                  <br><br>
+                  <b>Detailed:</b> Colored with soft shading at 17$
+                </p>
+              </div>
+            </div>
+            <p>All extra characters are 50% added to the original price.
+              <br>
+              As for backgrounds, they are free, but they must be simple.
+            </p>
+            <p>Keep in mind that these prices are not fixed and may vary
+              depending on the complexity of the commission.
+            </p>
+            <p>The payment is done through paypal in USD dollars or the
+              equivalent in euros.
+            </p>
+
+            <div id="row2">
+              <div id="do">
+                <h4>Do's <emoji>✔️</emoji></h4>
+                <ul>
+                  <li>OCs</li>
+                  <li>Humans</li>
+                  <li>Fanart</li>
+                  <li>NSFW</li>
+                  <li>Fetish*</li>
+                </ul>
+              </div>
+              <div id="dont">
+                <h4>Dont's <emoji>❌</emoji></h4>
+                <ul>
+                  <li>Mechas</li>
+                  <li>Furries*</li>
+                  <li>Gore</li>
+                  <li>Hate art</li>
+                  <li>NSFL</li>
+                </ul>
+              </div>
+              <div id="ask"><p>*Ask for details.</p></div>
+            </div id="row2">
+            
+         
+        </div id="work-dammit">
+        <br>
+
+
+        <div>
+        <h3 id="subtitle">How to order:</h3>
+        <p>To order a commission you can either contact me by DM's on twitter or
+          discord (@juangames), or you can send me an email to my adress at 
+          <a href="mailto:juangames@duck.com">juangames@duck.com</a>
+          with the following information:</p>
+          <div id="enbergadura">
+          <div id="format">
+          <p><br><b>Email subject:</b> Commission
+            <br><br>
+            <b>Your name:</b> (Doesn't have to be your real name, only how you
+            want to be refered as)
+            <br><br>
+            <b>Type of commission:</b> (Either lineart, flat colors or full)
+            <br><br>
+            <b>Email:</b> (the one you have linked into your paypal account)
+            <br><br>
+            <b>Description of the commission:</b>
+            <br>
+          </p>
+          </div>
+          </div>
+          <p>Regarding the description, you <b>must</b> send references of
+          the character, along with the pose you want.</p>
+          <p>Once you've sent the message (either email or dm) I will answer
+            ASAP, usually no longer than 2 days, telling you if I accepted or
+            declined the commission.
+          </p>
+          <div>
+          
+            <h3 id="subtitle">Workflow:</h3>
+  
+            <p>When I accept the commission you <b>must pay upfront</b>, I will 
+              send you an invoince through paypal. Once I recieve the money
+              I will start working on it and notify you about this. Do <b>not</b>
+              send any payment before I give you a slot and actually ask you for it.
+            </p>
+
+            <p>I will be sending you multiple WIPs so you can see how the commission
+              is going and ask for changes in time so it's just right for you.
+            </p>
+
+            <p>The time to finish it may vary depending on personal circunstances, health,
+              the complexity of the drawing etc.
+            </p>
+
+            <p>Once the drawing is finished I will send you the full-resolution image and,
+              if it's the case, without the background through an email.
+              <br><br>
+              In the rare case of the files size being too big for an email, I will send a
+              google drive link containing these files, which may be deleted over time, so
+              please download it ASAP.
+            </p>
+
+            <p>If you're interested I can send the .psd file along with the images if you want.</p>
+  
+          </div>
+          <div>
+            <h3 id="subtitle">Aditional notes:</h3>
+            <p>I have the right to accept or decline any commission.
+              <br>
+              If I have more commissions I have the right to work in whicher
+              I want, this is not a "first come, first serve" service.
+            </p>
+            <p>
+              You have the right to make as many changes as you want when the
+              commission is in a sketch state, but once the lineart is done only
+              small details may be changed.
+            </p>
+
+            <p>
+              You have the right to ask for a <b>complete refund</b> if:
+              <ul>
+                <li>I take too long</li>
+                <li>You don't like it despite the changes</li>
+                <li>You regret making the purchase</li>
+              </ul>
+            </p>
+            <p>As long as the commission is still in sketch state, otherwise
+              it would be <b>50% of the purchase</b>, at that point of the workflow
+              I've already invested too much effort.
+            </p>
+
+            <p>You may use the image for personal use (upload to your social media,
+              use it as a banner/pfp, etc.) as long as you credit me, for commercial use please ask me
+            beforehand.</p>
+
+            <p>
+              You may <b>not</b> claim the artwork as yours, use it for commercial use without
+              my consent.
+            </p>
+            <p>
+              I reserve the right to distribute the image unless otherwise agreed upon.
+              <br>
+              For example, you commission me but you don't want me to distribute the image or you
+              want to remain anonymous in my post's description. That is perfectly fine as long as you
+              tell me before publishing it.
+            </p>
+          </div>
+          
+        </div>
         
       </div id="content">
       <my-footer></my-footer>
