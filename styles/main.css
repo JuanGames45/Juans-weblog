@@ -298,6 +298,6 @@ marquee{
   color: black;
 }
 
-.post-title{
-  color: black;
+.text-browse{
+  display: none;
 }
