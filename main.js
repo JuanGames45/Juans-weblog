@@ -96,7 +96,7 @@ class MyFooter extends HTMLElement {
                 <br>
                 <img src="https://www.juangames.com/media/images/buttons/bl64.gif" width="119" height="40">
                 <a href="mailto:juangames@duck.com"><img src="https://www.juangames.com/media/images/buttons/email-icon.gif" width="119" height="40" class="imglink"></a>
-                <a href="https://pages.github.com/" target="_blank"><img src="https://www.juangames.com/media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
+                <a href="https://github.com/JuanGames45/Juan-Games-Blog" target="_blank"><img src="https://www.juangames.com/media/images/buttons/powered-by-github.png" width="119" height="40" class="imglink"></a>
 
             </div>
 
