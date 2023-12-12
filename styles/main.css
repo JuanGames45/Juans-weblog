@@ -11,9 +11,13 @@ body{
   padding: 20px 40px 20px 40px;
 }
 
+.hide{
+  display: none !important;
+}
+
 @font-face {
   font-family: 'MS Sans win 95';
-  src: url(https://www.juangames.com/media/fonts/Ms-Sans-Serif-8pt.ttf);
+  src: url('https://www.juangames.com/media/fonts/Ms-Sans-Serif-8pt.ttf');
 }
 
 @font-face {
@@ -296,6 +300,10 @@ marquee{
 
 .post-title{
   color: black;
+}
+
+.text-browse{
+  display: none;
 }
 
 .text-browse{
