@@ -1,0 +1,89 @@
+/*Data such as themes and fonts calls*/
+:root{
+    --wp-bg: white;
+    --link-color: #ff9100;
+    --link-hover-color: #00aea5;
+    --link-active: #1f3f97;
+    --font-color: black;
+}
+
+[data-theme="dark"] {
+    --wp-bg: black;
+    --font-color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .main {
+      width: 100% !important;
+      border-right: none !important;
+
+    }
+
+    .sidebar{
+        display: none !important;
+    }
+}
+/*Actual stuff*/
+body{
+    background-color: grey;
+    padding: 20px 10px 10px 10px;
+}
+
+
+.wrapper{
+    background-color: var(--wp-bg);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 960px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.main{
+    width: 70%;
+    float: left;
+    padding: 0 20px 0px;
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+    border-right: dotted 5px;
+    
+}
+
+.sidebar{
+    width: 30%;
+    
+    float: right;
+    padding: 20px 0px 20px 20px;
+    overflow: hidden;
+   
+   display: block;
+   
+}
+
+footer{
+    text-align: center;
+    height: 100%;
+    padding-top: 20px;
+    width: 100% ;  
+    overflow: hidden;
+    border-top: dotted 5px;
+}
+
+
+
+
+/*typography*/
+
+p, h1, h2, h3, h4, h5, h6{
+    color: var(--font-color)
+}
+
