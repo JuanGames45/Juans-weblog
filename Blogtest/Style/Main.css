@@ -65,13 +65,17 @@
 /*Menus*/
 
 .desktopmenu{
-    background-color: #00aea5;
-    height: 60px;
+    background: url('../Media/menu-button.png');
+    height: 61.5px;
     margin: 0px auto 40px auto;   
     width:95%;
+    border-left: solid 3px #adadad;
+   border-top: solid 3px #adadad;
+   border-right: solid 3px #6e6e6e;
+   border-bottom: solid 3px #6e6e6e;
 }
 .mobilemenu{
-    background-color: #00aea5;
+    background-color: #808080;
     height:80px;
     margin-bottom: 40px;
     width: 95%;
@@ -85,24 +89,23 @@
     width: 15%;
     height: 60px;
     font-family: menu;
-    font-size: 160%;
+    font-size: 210%;
     font-weight: bolder;
     overflow: hidden;
-   margin-left: auto;
-   margin-right: auto;
-   background: url(../Media/menu-button.png);
+   margin: -2.5px 1.3% 0px -2.1px;
+   background: url('../Media/menu-button.png');
    border-left: solid 4px #adadad;
    border-top: solid 4px #adadad;
    border-right: solid 4px #6e6e6e;
    border-bottom: solid 4px #6e6e6e;
    float: left;
-   margin-right: 1.3%;
+   
 }
 
 .menuitem:hover, .mbmenuitem:hover{
     filter:brightness(90%)
 }
-.menuitem:active .mbmenuitem:hover{
+.menuitem:active, .mbmenuitem:active{
     filter: brightness(80%);   
     transform: translate(1px);
 }
