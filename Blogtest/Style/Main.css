@@ -65,7 +65,7 @@
 /*Menus*/
 
 .desktopmenu{
-    background: url('../Media/menu-button.png');
+    background-color: #bbbbbb ;
     height: 61.5px;
     margin: 0px auto 40px auto;   
     width:95%;
@@ -110,7 +110,23 @@
     transform: translate(1px);
 }
 
+#about::before{
+    content: 'About ↓';
+    
+}
 
+#about:after{
+    content: 'About ↑';
+    display: none;
+}
+
+#about:hover:before{
+    display:none
+}
+
+#about:hover:after{
+    display:block
+}
 
 /*Actual stuff*/
 body{
