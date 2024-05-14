@@ -31,6 +31,30 @@
     .desktopmenu{
         display: none;
     }
+    .mbmenuitem{
+        background-color: #808080;
+        width: 25%;
+        height: 80px;
+        font-family: menu;
+        font-size: 250%;
+        font-weight: bolder;
+        overflow: hidden;
+       background: url('../Media/menu-button.png');
+       border-left: solid 4px #adadad;
+       border-top: solid 4px #adadad;
+       border-right: solid 4px #6e6e6e;
+       border-bottom: solid 4px #6e6e6e;
+       float: left;
+    }
+}
+
+@media only screen and (min-width:679px){
+    .mobilemenu{
+        display: none;
+    }
+    .menuitem{
+        width: 30%;
+    }
 }
 
 @font-face {
@@ -43,12 +67,18 @@
 .desktopmenu{
     background-color: #00aea5;
     height: 60px;
-    margin-bottom: 40px;
-    
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 40px auto;   
+    width:95%;
 }
+.mobilemenu{
+    background-color: #00aea5;
+    height:80px;
+    margin-bottom: 40px;
+    width: 95%;
+    margin: 0px auto 0px auto;
+}
+
+
 
 .menuitem{
     background-color: #808080;
@@ -60,19 +90,20 @@
     overflow: hidden;
    margin-left: auto;
    margin-right: auto;
-   background: url('../Media/menu-button.png');
+   background: url(../Media/menu-button.png);
    border-left: solid 4px #adadad;
    border-top: solid 4px #adadad;
    border-right: solid 4px #6e6e6e;
    border-bottom: solid 4px #6e6e6e;
+   float: left;
+   margin-right: 1.3%;
 }
 
-.menuitem:hover{
+.menuitem:hover, .mbmenuitem:hover{
     filter:brightness(90%)
 }
-.menuitem:active{
-    filter: brightness(80%);
-    
+.menuitem:active .mbmenuitem:hover{
+    filter: brightness(80%);   
     transform: translate(1px);
 }
 
@@ -127,7 +158,7 @@ footer{
     text-align: center;
     height: 100%;
     padding-top: 20px;
-    width: 100% ;  
+    width: 100%;  
     overflow: hidden;
     border-top: dotted 5px;
 }
@@ -136,11 +167,19 @@ footer{
     float: right;
 }
 
-
-
 /*typography*/
 
 p, h1, h2, h3, h4, h5, h6{
     color: var(--font-color)
 }
 
+/*Extra*/
+.main img{
+    margin-left: auto;
+    margin-right: auto;
+    width:98%;
+}
+
+.main img:hover{
+    transform: scale(1.5);
+}
