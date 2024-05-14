@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:680px) {
     /* For mobile phones: */
     .main {
       width: 100% !important;
@@ -27,7 +27,55 @@
     .sidebar{
         display: none !important;
     }
+
+    .desktopmenu{
+        display: none;
+    }
 }
+
+@font-face {
+    font-family: 'menu';
+    src: url(https://www.juangames.com/media/fonts/Oswald-Regular.ttf);
+}
+
+/*Menus*/
+
+.desktopmenu{
+    background-color: #00aea5;
+    height: 60px;
+    margin-bottom: 40px;
+    
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menuitem{
+    background-color: #808080;
+    width: 15%;
+    height: 60px;
+    font-family: menu;
+    font-size: 160%;
+    font-weight: bolder;
+    overflow: hidden;
+   margin-left: auto;
+   margin-right: auto;
+   background: url(/Media/menu-button.png);
+   border-left: solid 4px #adadad;
+   border-top: solid 4px #adadad;
+   border-right: solid 4px #6e6e6e;
+   border-bottom: solid 4px #6e6e6e;
+}
+
+.menuitem:hover{
+    filter:brightness(90%)
+}
+.menuitem:active{
+    filter: brightness(80%);
+    
+    transform: translate(1px);
+}
+
 /*Actual stuff*/
 body{
     background-color: grey;
@@ -47,6 +95,13 @@ body{
     
 }
 
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .main{
     width: 70%;
     float: left;
@@ -55,17 +110,14 @@ body{
     display: block;
     overflow: hidden;
     border-right: dotted 5px;
-    
 }
 
 .sidebar{
-    width: 30%;
-    
+    width: 30%;   
     float: right;
     padding: 20px 0px 20px 20px;
     overflow: hidden;
-   
-   display: block;
+    display: block;
    
 }
 
@@ -78,6 +130,9 @@ footer{
     border-top: dotted 5px;
 }
 
+.theme-switch-wrapper{
+    float: right;
+}
 
 
 
