@@ -16,8 +16,10 @@
     box-sizing: border-box;
 }
 
+/*Mobile layout. Changes made here will only make effect
+when the page has a lower resolution than the one set*/
+
 @media only screen and (max-width:680px) {
-    /* For mobile phones: */
     .main {
       width: 100% !important;
       border-right: none !important;
@@ -34,9 +36,9 @@
     .mbmenuitem{
         background-color: #808080;
         width: 25%;
-        height: 80px;
+        height: 60px;
         font-family: menu;
-        font-size: 250%;
+        font-size: 150%;
         font-weight: bolder;
         overflow: hidden;
        background: url('../Media/menu-button.png');
@@ -62,7 +64,7 @@
     src: url(https://www.juangames.com/media/fonts/Oswald-Regular.ttf);
 }
 
-/*Menus*/
+/*Menus stuff*/
 
 .desktopmenu{
     background-color: #bbbbbb ;
@@ -76,13 +78,11 @@
 }
 .mobilemenu{
     background-color: #808080;
-    height:80px;
+    height:60px;
     margin-bottom: 40px;
     width: 95%;
     margin: 0px auto 0px auto;
 }
-
-
 
 .menuitem{
     background-color: #808080;
@@ -181,18 +181,21 @@ footer{
     overflow: hidden;
     border-top: dotted 5px;
 }
-
+/*This is the position of the darkmode switch, until
+I find a way to make it work on multiple (static) pages
+it will stay there.*/
 .theme-switch-wrapper{
     float: right;
 }
 
-/*typography*/
+/*typography, u know the drill*/
 
 p, h1, h2, h3, h4, h5, h6{
     color: var(--font-color)
 }
 
-/*Extra*/
+/*Images on the main section, doesn not apply to,
+let's say, the sidebar*/
 .main img{
     margin-left: auto;
     margin-right: auto;
