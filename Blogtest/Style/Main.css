@@ -23,7 +23,6 @@ when the page has a lower resolution than the one set*/
     .main {
       width: 100% !important;
       border-right: none !important;
-
     }
 
     .sidebar{
@@ -38,15 +37,19 @@ when the page has a lower resolution than the one set*/
         width: 25%;
         height: 60px;
         font-family: menu;
-        font-size: 150%;
+        font-size: 25pt;
         font-weight: bolder;
         overflow: hidden;
-       background: url('../Media/menu-button.png');
+       background: #cfcfcf;
        border-left: solid 4px #adadad;
        border-top: solid 4px #adadad;
        border-right: solid 4px #6e6e6e;
        border-bottom: solid 4px #6e6e6e;
        float: left;
+    }
+
+    p{
+        font-size: 10pt;
     }
 }
 
@@ -56,12 +59,21 @@ when the page has a lower resolution than the one set*/
     }
     .menuitem{
         width: 30%;
+        font-size: 24pt !important;
+    }
+
+    #about{
+        font-size: 21pt !important;
+    }
+
+    p{
+        font-size: 15pt;
     }
 }
 
 @font-face {
     font-family: 'menu';
-    src: url(https://www.juangames.com/media/fonts/Oswald-Regular.ttf);
+    src: url('https://www.juangames.com/media/fonts/Oswald-Regular.ttf');
 }
 
 /*Menus stuff*/
@@ -84,16 +96,16 @@ when the page has a lower resolution than the one set*/
     margin: 0px auto 0px auto;
 }
 
-.menuitem{
+.menuitem, .dropbtn{
     background-color: #808080;
     width: 15%;
     height: 60px;
     font-family: menu;
-    font-size: 210%;
+    font-size: 21pt;
     font-weight: bolder;
     overflow: hidden;
    margin: -2.5px 1.3% 0px -2.1px;
-   background: url('../Media/menu-button.png');
+   background: #cfcfcf;
    border-left: solid 4px #adadad;
    border-top: solid 4px #adadad;
    border-right: solid 4px #6e6e6e;
@@ -101,18 +113,69 @@ when the page has a lower resolution than the one set*/
    float: left;
    
 }
+.dropbtn{
+    width:136% !important;
+}
+.dropbtn:hover{
+    border-bottom: none;
+}
+.dropitm{
+    text-align: center;
+    background-color: #cfcfcf;
+    border-left: solid 4px #adadad;
+   border-top: solid 4px #adadad;
+   border-right: solid 4px #6e6e6e;
+   border-bottom: solid 4px #6e6e6e;
+}
 
-.menuitem:hover, .mbmenuitem:hover{
-    filter:brightness(90%)
+#comm{
+    font-size: 16pt;
+    padding-left: 8%;
 }
-.menuitem:active, .mbmenuitem:active{
-    filter: brightness(80%);   
-    transform: translate(1px);
+
+.menuitem:hover, .mbmenuitem:hover, .dropbtn:hover, .dropitm:hover{
+    filter:brightness(90%) !important;
 }
+.menuitem:active, .mbmenuitem:active, .dropbtn:active, .dropitm:active{
+    filter: brightness(80%) !important;   
+    transform: translate(1px); 
+    border-right: solid 2px #6e6e6e;
+    border-bottom: solid 2px #6e6e6e;
+}
+.dropbtn:active{
+   
+    border-right: solid 2px #6e6e6e;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+      margin-top:58px;
+      font-family: menu;
+      font-weight: bolder;
+      font-size: 21pt;
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      width:133%;
+     background: #cfcfcf; 
+     float: left;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
 
 #about::before{
-    content: 'About ↓';
-    
+    content: 'About ↓'; 
 }
 
 #about:after{
@@ -121,7 +184,8 @@ when the page has a lower resolution than the one set*/
 }
 
 #about:hover:before{
-    display:none
+    display:none;
+    
 }
 
 #about:hover:after{
@@ -134,7 +198,6 @@ body{
     padding: 20px 10px 10px 10px;
 }
 
-
 .wrapper{
     background-color: var(--wp-bg);
     border-radius: 20px;
@@ -142,9 +205,7 @@ body{
     max-width: 960px;
     height: 100%;
     margin-left: auto;
-    margin-right: auto;
-    
-    
+    margin-right: auto;    
 }
 
 .banner{
