@@ -50,7 +50,18 @@ when the page has a lower resolution than the one set*/
 
     p{
         font-size: 10pt;
+        font-family: 'Liberation Sans';
     }
+
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'Liberation Sans Bold';
+    }
+
+    #ptitle{
+        margin-top: 10px;
+        margin-bottom: -5px;
+    }
+    
 }
 
 @media only screen and (min-width:679px){
@@ -68,12 +79,35 @@ when the page has a lower resolution than the one set*/
 
     p{
         font-size: 15pt;
+        font-family: 'Liberation Sans';
     }
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'Liberation Sans Bold';
+    }
+    h1{
+        font-size: 30pt;
+    }
+    
+    #ptitle{
+        margin-top: -10px;
+        margin-bottom: -12px;
+    }
+    
 }
 
 @font-face {
     font-family: 'menu';
-    src: url('https://www.juangames.com/media/fonts/Oswald-Regular.ttf');
+    src: url('https://www.juangames.com/media/fonts/OpenSans-CondBold.ttf');
+}
+
+@font-face {
+    font-family: 'Liberation Sans' ;
+    src: url('https://www.juangames.com/media/fonts/LiberationSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Liberation Sans Bold';
+    src: url('https://www.juangames.com/media/fonts/LiberationSans-Bold.ttf');
 }
 
 /*Menus stuff*/
@@ -252,8 +286,10 @@ it will stay there.*/
 /*typography, u know the drill*/
 
 p, h1, h2, h3, h4, h5, h6{
-    color: var(--font-color)
+    color: var(--font-color);
+   
 }
+
 
 /*Images on the main section, doesn not apply to,
 let's say, the sidebar*/
