@@ -37,7 +37,7 @@ when the page has a lower resolution than the one set*/
         width: 25%;
         height: 60px;
         font-family: menu;
-        font-size: 25pt;
+        font-size: 20pt;
         font-weight: bolder;
         overflow: hidden;
        background: #cfcfcf;
@@ -46,6 +46,9 @@ when the page has a lower resolution than the one set*/
        border-right: solid 4px #6e6e6e;
        border-bottom: solid 4px #6e6e6e;
        float: left;
+    }
+    button .mbmenuitem{
+        font-size: 1px;
     }
 
     p{
@@ -70,7 +73,7 @@ when the page has a lower resolution than the one set*/
     }
     .menuitem{
         width: 30%;
-        font-size: 26pt !important;
+        font-size: 26pt;
     }
 
     #about{
