@@ -13,8 +13,9 @@ for(link of links){
 class MyHeader extends HTMLElement {
     connectedCallback () {
         this.innerHTML = `
-        <head>
-    <link rel="stylesheet" type="text/css" href="Style/Main.css">
+        
+    <head>
+    <link rel="stylesheet" type="text/css" href="https://www.juangames.com/style/Main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juan Games Blog</title>
     <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
@@ -27,15 +28,15 @@ class MyHeader extends HTMLElement {
             <img src="https://www.juangames.com/media/images/backgrounds/banner.png" class="banner">
             <div class="desktopmenu">
                 
-                <button class="menuitem" id="homebutton">Home</button>
-                <button class="menuitem">Blog</button>
-                <button class="menuitem">Art</button>
+                <a href="https://www.juangames.com/index"><button class="menuitem" id="homebutton">Home</button></a>
+                <a href="https://www.juangames.com/blog.html"><button class="menuitem">Blog</button></a>
+                <button class="menuitem">Art</button></a>
                 <div class="dropdown">
-                <a href="about.html"><button class="dropbtn" id="about"></button></a>
+                <a href="https://www.juangames.com/about.html"><button class="dropbtn" id="about"></button></a>
                 <div class="dropdown-content">
-                    <a class="dropitm" href="about/the-site.html">The site</a>
-                    <a class="dropitm">Myself</a>
-                    <a class="dropitm" id="comm">Commissions</a>
+                    <a class="dropitm" href="https://www.juangames.com/about/the-site.html">The site</a>
+                    <a class="dropitm" href="https://www.juangames.com/about/myself.html">Myself</a>
+                    <a class="dropitm" id="comm" href="https://www.juangames.com/about/comm-info">Commissions</a>
                 </div>
                 </div>
             
