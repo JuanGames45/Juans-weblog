@@ -43,10 +43,10 @@ class MyHeader extends HTMLElement {
             </div>
             <div class="mobilemenu">
                 
-                <button class="mbmenuitem" id="homebutton">Home</button>
-                <button class="mbmenuitem">Blog</button>
-                <button class="mbmenuitem">Art</button>
-                <button class="mbmenuitem" id="About">About</button>
+            <a href="https://www.juangames.com/index"><button class="mbmenuitem" id="homebutton">Home</button></a>
+            <a href="https://www.juangames.com/blog"><button class="mbmenuitem">Blog</button></a>
+            <a href="https://www.juangames.com/art"><button class="mbmenuitem">Art</button></a>
+            <a href="https://www.juangames.com/about"><button class="mbmenuitem" id="About">About</button></a>
                 
             </div>
         </header>`
