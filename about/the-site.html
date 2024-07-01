@@ -1,58 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-  <head>
+<html>
 
-    
-    <!--Esta es la descipción de la web, autor y palabras clave respectivamente.-->
-    <meta name="description" content="This is the first time I'm making a website from scratch">
-    <meta name="author" content="Juan Games">
-    <meta name="keyword" content="blog, art, memes, artist, amateur">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../style/Main.css">
+    </head>
 
-    <!--Indica la codificación de caractéres. Sirve para meter otros lenguajes, emojis, simbolos etc.-->
-    <meta charset="utf-8">
-
-    <!--Personalización del sitio (CSS y favicon respectivamente)-->
-    <link rel="stylesheet" type="text/css" href="../styles/main.css">
-    <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
-    
-  </head>
-  
-  <body>
-    <div class="back">
-        <div>
-            <script type="module" src="/main.js"></script>
+    <body>
+    <div class="wrapper">
+        <script type="module" src="../style/Main.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script>
         <my-header></my-header>
         <my-sidebar></my-sidebar>
-        </div>
 
-      <div id="content">
+        <div class="main">
+         <h1>About the site</h1>
 
-        <h1 id="recent">About the site</h1>
+         <p>If I'm being honest, I never really liked the blogging features such as
+            Deviantart's or tumblr, the customization options were either too limiting,
+            behind a paywall or non-existing. And since I got into the world of 
+            <a href="#opensource">:open source</a> stuff, I don't really trust any
+            program that is not open source.
+         </p>
 
-        <p>To be honest, I never liked the blogging features in social media such as Deviantart's journals
-          or tumblr, the customization options are either too limiting, behind a pay wall or non-existing.
-        </p>
+         <p>Because of this, and as a fan of retro stuff (specially 90's and mid 2000's),
+            I decided to make my website from the ground up, this one being the second
+            iteration of it to be accessible from mobile (seriosly, it was horrible
+            to use it on a phone)</p>
 
-        <p>And as a fan of everything of the 90s and mid 2000s, I decided to make my website from the ground
-          up (programming included!).
-        </p>
+         <p>And again, the <a href="#sourcecode">:source code</a>
+            is available on this <a href="https://github.com/JuanGames45/Juan-Games-Blog" target="_blank">
+            GitHub repository</a> for everyone to see. But this time, I'm also using
+            another open source project called <a href="https://ncase.me/nutshell/#WhatIsNutshell">:Nutshell</a>        
+         </p>
 
-        <p>My goal with this project is to have a little space on the web where I can share whatever I want in
-          form of nine bibles of text like people used to do in the 2000s.
-          <br>
-          And what better way to do that than in a fully customizable, old-school website!
-        </p>
+         <p>Nutshell is a creative commons project made by Nicky case. The project
+            consists of expandable explanations, every time you see a word with a :
+            symbol, it contains one. And if you click on it, you will get one. Infact,
+            there are some on this same page so you can see.
+         </p>
 
-        <p>Because I want to be transparent with you, and assure you that the site is secure. I have to mention
-          that this site is stored in a github github repository using github pages service, here's a 
-          <a href="https://github.com/JuanGames45/Juan-Games-Blog" target="_blank">link</a> to said repository if you want to chech out by yourself.
-        </p>
-        
-      </div id="content">
-      <my-footer></my-footer>
-    </div class="back">
-   
-  </body>
-  
+         <!--Nutshell explanations-->
+
+         <h2>:x opensource</h2>
+         <p>Open source is any piece of <a href="#sourcecode">:source code</a> that is available for
+            everyone to see, and usually, free (as of liberty) for everyone to modify,
+            redistribute and even sell. But this depends on the license the creator of
+            the program decides to use.
+         </p>
+         <h2>:x sourcecode</h2>
+         <p>Basically, the code a programmer writes since the computer can only 
+            understand binary.
+         </p>
+
+
+        </div class="main">
+
+        <my-footer></my-footer>
+
+    </div class="wrapper">
+
+    </body>
+
 </html>

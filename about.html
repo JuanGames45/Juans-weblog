@@ -1,50 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-  <head>
+<html>
+    <head>
+        <link rel="icon" type="image/x-con" 
+        href="https://www.juangames.com/media/images/favicon.png">
+    </head>
 
-    <!--Esta es la descipción de la web, autor y palabras clave respectivamente.-->
-    <meta name="description" content="This is the first time I'm making a website from scratch">
-    <meta name="author" content="Juan Games">
-    <meta name="keyword" content="blog, art, memes, artist, amateur">
+    <body>
+    <div class="wrapper">
+        <script type="module" src="style/Main.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.js"></script>
+        <my-header></my-header>
+        <my-sidebar></my-sidebar>
 
-    <!--Indica la codificación de caractéres. Sirve para meter otros lenguajes, emojis, simbolos etc.-->
-    <meta charset="utf-8">
+        <div class="main">
+         <h1 id="ptitle">About</h1>
 
-    <!--Personalización del sitio (CSS y favicon respectivamente)-->
-    <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
-    
-  </head>
-  
-  <body>
-    <div class="back">
-      <script type="module" src="https://www.juangames.com/main.js"></script>
-      <my-header></my-header>
-      <my-sidebar></my-sidebar>
+         <p>Welcome to the about <a href="#testing">:section</a>! Here, you can see all the
+            stuff regarding my blog by either following the links or using the
+            dropdown menu if you're on desktop. 
+         </p>
+         <ul>
+            <a href="https://www.juangames.com/about/the-site"><li>The site</li></a>
+            <a><li>Myself</li></a>
+            <a><li>Commissions info</li></a>
+         </ul>
+         <h2>:x testing</h2>
+        <p>bvyuiviuviu</p>
+        </div class="main">
 
-      <div id="content">
-        <div class="text-browse">
-          <p><a href="https://www.juangames.com">[Home]</a>
-          <a href="https://www.juangames.com/blog">[Blog]</a>
-          <a href="https://www.juangames.com/art">[Art]</a>
-          <a href="https://www.juangames.com/about">[About]</a></p>
-        </div>
-        <h1 id="recent">About</h1>
-
-          <p>Welcome to the about section. In here you can see all the stuff 
-            regarding this website.</p>
-            
-            <ul>
-              <li><a href="https://www.juangames.com/about/the-site">About the site</a></li>
-              <li><a href="https://www.juangames.com/about/about-me">About me</a></li>
-              <li><a href="https://www.juangames.com/about/comm-info">Commission info</a></li>
-            </ul>
         
 
-      </div id="content">
-      <my-footer></my-footer>
-    </div class="back">
-   
-  </body>
-  
+        <my-footer></my-footer>
+
+    </div class="wrapper">
+
+    </body>
+
 </html>
