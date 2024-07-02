@@ -49,12 +49,16 @@ when the page has a lower resolution than the one set*/
     }
 
     p{
-        font-size: 16pt;
+        font-size: 13pt !important;
         font-family: 'Liberation Sans';
     }
 
     h1, h2, h3, h4, h5, h6{
         font-family: 'Liberation Sans Bold';
+    }
+
+    h1{
+        font-size: 25pt;
     }
 
     #ptitle{
