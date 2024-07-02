@@ -1,5 +1,3 @@
-
-
 var links = document.querySelectorAll(".link");
 for(link of links){
   link.addEventListener("click", function(e){
