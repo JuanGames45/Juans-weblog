@@ -1,3 +1,5 @@
+
+
 var links = document.querySelectorAll(".link");
 for(link of links){
   link.addEventListener("click", function(e){
@@ -13,7 +15,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         
     <head>
-   <link rel="stylesheet" type="text/css" href="https://www.juangames.com/style/Main.css">
+    <link rel="stylesheet" type="text/css" href="https://www.juangames.com/style/Main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juan Games Blog</title>
     <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
@@ -28,7 +30,7 @@ class MyHeader extends HTMLElement {
                 
                 <a href="https://www.juangames.com/index"><button class="menuitem" id="homebutton">Home</button></a>
                 <a href="https://www.juangames.com/blog.html"><button class="menuitem">Blog</button></a>
-                <button class="menuitem">Art</button></a>
+                <a href="https://www.juangames.com/art"><button class="menuitem">Art</button></a>
                 <div class="dropdown">
                 <a href="https://www.juangames.com/about.html"><button class="dropbtn" id="about"></button></a>
                 <div class="dropdown-content">
