@@ -13,7 +13,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         
     <head>
-    <link rel="stylesheet" type="text/css" href="/style/Main.css">
+   <link rel="stylesheet" type="text/css" href="https://www.juangames.com/style/Main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juan Games Blog</title>
     <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
