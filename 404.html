@@ -1,93 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-  <head>
+<html>
+    <head>
+        <link rel="icon" type="image/x-con" 
+        href="https://www.juangames.com/media/images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>404</title>
 
-    <title>404</title>
-    <!--Esta es la descipción de la web, autor y palabras clave respectivamente.-->
-    <meta name="description" content="This is the first time I'm making a website from scratch">
-    <meta name="author" content="Juan Games">
-    <meta name="keyword" content="blog, art, memes, artist, amateur">
+        <style>
+            @media only screen and (max-width:680px) {
+    .main {
+      width: 100% !important;
+      border-right: none !important;
+    }
 
-    <!--Indica la codificación de caractéres. Sirve para meter otros lenguajes, emojis, simbolos etc.-->
-    <meta charset="utf-8">
+    p{
+        font-size: 13pt !important;
+        font-family: 'Liberation Sans';
+    }
 
-    <!--Personalización del sitio (CSS y favicon respectivamente)-->
-    <link rel="stylesheet" type="text/css" href="https://www.juangames.com/styles/main.css">
-    <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
+    h1, h2, h3, h4, h5, h6{
+        font-family: 'Liberation Sans Bold';
+    }
 
-    <style>
-
-      #content{
-        width: 97%;
-        float: none;
-        padding-top: 20px;
-        padding-bottom: 40px;
-        text-align: center;
-        border-right: none;
-      }
-
-      p{
-        font-size: 30px;
-      }
-      
-      #buttons{
-        text-align: center;
-      }
-
-      .button{
-        font-size: 28px;
-        font-family: 'Oswald', 'sans-sherif';
-        background: url('https://www.juangames.com/media/images/buttons/404-return-bg.png') no-repeat;
-        background-position: center;
-        list-style: none;
-        display: inline-block;
-        text-align: center;
-        margin: 5px;
-        padding: 10px;
-      }
-
-      a{
-      color: black;
-      margin: 4px;
-      }
-      a:hover{
-        color: black;
-      }
-
-     
-
-    </style>
+    h1{
+        font-size: 23pt;
+    }
+    .button{
+        background-color: #808080;
+        width: 20% !important;
+        height: 60px !important;
+        font-family: 'menu';
+        font-size: 15pt !important;
+        font-weight: bolder;
+        overflow: hidden;
+        margin-left:auto;
+        margin-right: auto;
+        background: #cfcfcf;
+        border-left: solid 4px #adadad;
+        border-top: solid 4px #adadad;
+        border-right: solid 4px #6e6e6e;
+        border-bottom: solid 4px #6e6e6e;
+        
+        cursor: grab;
+    }
     
-  </head>
-  
-  <body>
-    <div class="back">
-      
+}
 
-      <div id="content">
+@media only screen and (min-width:679px){
+    
 
-       
+    p{
+        font-size: 17pt;
+        font-family: 'Liberation Sans';
+    }
 
-        <h1>Error 404</h1>
-       
-        <p>The requested URL was not found.
-          <br>
-          Try searching again, or whatever you want, idk. <p class="text-browse">¯\_(^-^')_/¯</p>
-        <br>
+    
+    h1{
+        font-size: 38pt;
+        font-family: 'Liberation Sans Bold';
+    }
+    
+    .main{
+    width: 100%;
+    padding: 0 20px 0px;
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+    }
+    .button{
+        background-color: #808080;
+        width: 20% !important;
+        height: 70px !important;
+        font-family: 'menu';
+        font-size: 30pt !important;
+        font-weight: bolder;
+        overflow: hidden;
+        margin-left:auto;
+        margin-right: auto;
+        background: #cfcfcf;
+        border-left: solid 4px #adadad;
+        border-top: solid 4px #adadad;
+        border-right: solid 4px #6e6e6e;
+        border-bottom: solid 4px #6e6e6e;
         
-        <img src="https://www.juangames.com/media/images/idk.png" width="50%">
-        <br>
-        <br>
-        <img src="https://www.juangames.com/media/images/buttons/404-button.png" class="button">
-        <div class="text-browse">
-          <p><a href="https://www.juangames.com">[<-- Home]</a></p>
-        </div>
-        
-      </div id="content">
-      
-    </div class="back">
+        cursor: grab;
+    }
+    
+}
+
+    @font-face {
+    font-family: 'menu';
+    src: url('https://www.juangames.com/media/fonts/OpenSans-CondBold.ttf');
+    }
+
+    @font-face {
+    font-family: 'Liberation Sans' ;
+    src: url('https://www.juangames.com/media/fonts/LiberationSans-Regular.ttf');
+    }
+
+    @font-face {
+    font-family: 'Liberation Sans Bold';
+    src: url('https://www.juangames.com/media/fonts/LiberationSans-Bold.ttf');
+    }
+
+    body{
+    background-color: grey;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    }
+
+    .wrapper{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 960px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+    }
+
    
-  </body>
-  
+
+    .buttonwrapper{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .button:hover{
+    filter:brightness(90%) !important;
+    }
+    .button:active{
+    filter: brightness(80%) !important;   
+    transform: translate(1px); 
+    border-right: solid 2px #6e6e6e;
+    border-bottom: solid 2px #6e6e6e;
+    }
+
+        </style>
+
+
+    </head>
+
+    <body>
+    <div class="wrapper">
+        
+
+        <div class="main">
+         <h1>Error 404</h1>
+         <p>The requested URL was not found.
+            <br>
+            Try searching again, or whatever you want, idk.
+         </p>
+
+         
+
+         <img src="media/images/idk.png" width="40%">
+         <div class="buttonwrapper">
+         <a href="https:www.juangames.com"><button class="button">Home</button></a>
+         </div>
+        </div class="main">
+
+        
+
+    </div class="wrapper">
+
+    </body>
+
 </html>

@@ -315,3 +315,23 @@ let's say, the sidebar*/
 }
 
 /*Nutshell , project info at: https://ncase.me/nutshell */
+.nutshell-bubble{
+    border-radius: 0px;
+    transition: none;
+}
+
+.nutshell-ball-up, .nutshell-ball-down{
+    /* Placed to the left */
+    position: absolute;
+    display: inline-block;
+    left: 1px;
+
+    /* They're balls */
+    width: 0.15em;
+    height: 0.15em;
+    background: #000;
+    border-radius: 1em;
+
+    /* Animate moving up & down */
+    transition: none;
+}
