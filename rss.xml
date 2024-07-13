@@ -9,8 +9,8 @@
   <item>
     <title>Test</title>
     <link>https://www.juangames.com/about/the-site</link>
-    <description>
-    <p>If I'm being honest, I never really liked the blogging features such as
+    <content:encoded>
+    <![CDATA[<p>If I'm being honest, I never really liked the blogging features such as
             Deviantart's or tumblr, the customization options were either too limiting,
             behind a paywall or non-existing. And since I got into the world of 
             <a href="#opensource">:open source</a> stuff, I don't really trust any
@@ -53,9 +53,11 @@
          <h2>:x sourcecode</h2>
          <p>Basically, the code a programmer writes since the computer can only 
             understand binary.
-         </p>
-</description>
+         </p>]]>
+</content:encoded>
   </item>
 </channel>
+
+</rss>
 
 </rss>
