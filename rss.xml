@@ -13,7 +13,7 @@
     <![CDATA[<p>If I'm being honest, I never really liked the blogging features such as
             Deviantart's or tumblr, the customization options were either too limiting,
             behind a paywall or non-existing. And since I got into the world of 
-            <a href="#opensource">:open source</a> stuff, I don't really trust any
+             stuff, I don't really trust any
             program that is not open source.
          </p>
 
@@ -22,10 +22,10 @@
             iteration of it to be accessible from mobile (seriosly, it was horrible
             to use it on a phone)</p>
 
-         <p>And again, the <a href="#sourcecode">:source code</a>
+         <p>And again, the :source code
             is available on this <a href="https://github.com/JuanGames45/Juan-Games-Blog" target="_blank">
             GitHub repository</a> for everyone to see. But this time, I'm also using
-            another open source project called <a href="https://ncase.me/nutshell/#WhatIsNutshell">:Nutshell</a>        
+            another open source project called :Nutshell     
          </p>
 
          <p>Nutshell is a creative commons project made by Nicky case. The project
@@ -38,21 +38,6 @@
             wide web. Where I can share whatever I want in the form of nine yards of
             text called "blog post" like people did in the 2000's. And what better way
             of doing it than in a fully customizable, old-school website?
-         </p>
-
-
-
-         <!--Nutshell explanations-->
-
-         <h2>:x opensource</h2>
-         <p>Open source is any piece of <a href="#sourcecode">:source code</a> that is available for
-            everyone to see, and usually, free (as of liberty) for everyone to modify,
-            redistribute and even sell. But this depends on the license the creator of
-            the program decides to use.
-         </p>
-         <h2>:x sourcecode</h2>
-         <p>Basically, the code a programmer writes since the computer can only 
-            understand binary.
          </p>]]>
 </content:encoded>
   </item>
