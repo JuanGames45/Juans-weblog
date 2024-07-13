@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>W3Schools Home Page</title>
+  <link>https://www.juangames.com</link>
+  <description>Personal blog of Juan Games</description>
+  <item>
+    <title>Test</title>
+    <link>https://www.juangames.com/about/myself</link>
+    <description>Testing if this shit works</description>
+  </item>
+</channel>
+
+</rss>
