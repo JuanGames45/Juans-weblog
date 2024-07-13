@@ -5,10 +5,56 @@
   <title>Juan Games Blog</title>
   <link>https://www.juangames.com</link>
   <description>Personal blog of Juan Games</description>
+  <language>en-us</language>
   <item>
     <title>Test</title>
-    <link>https://www.juangames.com/about/myself</link>
-    <description>Testing if this shit works</description>
+    <link>https://www.juangames.com/about/the-site</link>
+    <content:encoded>
+    <p>If I'm being honest, I never really liked the blogging features such as
+            Deviantart's or tumblr, the customization options were either too limiting,
+            behind a paywall or non-existing. And since I got into the world of 
+            <a href="#opensource">:open source</a> stuff, I don't really trust any
+            program that is not open source.
+         </p>
+
+         <p>Because of this, and as a fan of retro stuff (specially 90's and mid 2000's),
+            I decided to make my website from the ground up, this one being the second
+            iteration of it to be accessible from mobile (seriosly, it was horrible
+            to use it on a phone)</p>
+
+         <p>And again, the <a href="#sourcecode">:source code</a>
+            is available on this <a href="https://github.com/JuanGames45/Juan-Games-Blog" target="_blank">
+            GitHub repository</a> for everyone to see. But this time, I'm also using
+            another open source project called <a href="https://ncase.me/nutshell/#WhatIsNutshell">:Nutshell</a>        
+         </p>
+
+         <p>Nutshell is a creative commons project made by Nicky case. The project
+            consists of expandable explanations, every time you see a word starting with 
+            a : symbol, it contains one. And if you click on it, you will get one. 
+            Infact, there are some on this same page so you can see for yourself.
+         </p>
+
+         <p>In short, my goal with this project is to have a little space on the world
+            wide web. Where I can share whatever I want in the form of nine yards of
+            text called "blog post" like people did in the 2000's. And what better way
+            of doing it than in a fully customizable, old-school website?
+         </p>
+
+
+
+         <!--Nutshell explanations-->
+
+         <h2>:x opensource</h2>
+         <p>Open source is any piece of <a href="#sourcecode">:source code</a> that is available for
+            everyone to see, and usually, free (as of liberty) for everyone to modify,
+            redistribute and even sell. But this depends on the license the creator of
+            the program decides to use.
+         </p>
+         <h2>:x sourcecode</h2>
+         <p>Basically, the code a programmer writes since the computer can only 
+            understand binary.
+         </p>
+</content:encoded>
   </item>
 </channel>
 
