@@ -10,35 +10,7 @@
     <title>Test</title>
     <link>https://www.juangames.com/about/the-site</link>
     <content:encoded>
-    <![CDATA[<p>If I'm being honest, I never really liked the blogging features such as
-            Deviantart's or tumblr, the customization options were either too limiting,
-            behind a paywall or non-existing. And since I got into the world of 
-             stuff, I don't really trust any
-            program that is not open source.
-         </p>
-
-         <p>Because of this, and as a fan of retro stuff (specially 90's and mid 2000's),
-            I decided to make my website from the ground up, this one being the second
-            iteration of it to be accessible from mobile (seriosly, it was horrible
-            to use it on a phone)</p>
-
-         <p>And again, the :source code
-            is available on this <a href="https://github.com/JuanGames45/Juan-Games-Blog" target="_blank">
-            GitHub repository</a> for everyone to see. But this time, I'm also using
-            another open source project called :Nutshell     
-         </p>
-
-         <p>Nutshell is a creative commons project made by Nicky case. The project
-            consists of expandable explanations, every time you see a word starting with 
-            a : symbol, it contains one. And if you click on it, you will get one. 
-            Infact, there are some on this same page so you can see for yourself.
-         </p>
-
-         <p>In short, my goal with this project is to have a little space on the world
-            wide web. Where I can share whatever I want in the form of nine yards of
-            text called "blog post" like people did in the 2000's. And what better way
-            of doing it than in a fully customizable, old-school website?
-         </p>]]>
+    <![CDATA[<![CDATA[ <p><img alt="" src="https://ncase.me/nutshell/promo/trailer/trailer.gif" style="width: 500px; height: 312px;" /></p> <p>After 2 years of procrastinating on this project... it's finally out! My first post-burnout-hiatus interactive thingy:</p> <p>🥜 <strong>Nutshell: make *expandable* explanations</strong>  🥜<br /> 👉 <a href="https://ncase.me/nutshell/">https://ncase.me/nutshell/</a> 👈</p> <p>This is a tool for writers, to let their readers dive into details. Not shown in the above .gif, are two other "killer features": 1) you can embed snippets of text <em>from other authors & websites</em>, even stuff written years ago! And 2) you can embed interactives, YouTube videos, and the intros of Wikipedia articles.</p> <p>If you're writing a blog, news articles, code documentation, educational material, etc... I hope Nutshell helps you help <em>your</em> readers.</p> <p>(See you next month... for explainers written <em>with</em> Nutshell!)</p> <p>Cheers,<br /> ~ Nicky Case</p> ]]>]]>
 </content:encoded>
   </item>
 </channel>
