@@ -9,7 +9,7 @@
   <item>
     <title>Test</title>
     <link>https://www.juangames.com/about/the-site</link>
-    <content:encoded>
+    <description>
     <p>If I'm being honest, I never really liked the blogging features such as
             Deviantart's or tumblr, the customization options were either too limiting,
             behind a paywall or non-existing. And since I got into the world of 
@@ -54,7 +54,7 @@
          <p>Basically, the code a programmer writes since the computer can only 
             understand binary.
          </p>
-</content:encoded>
+</description>
   </item>
 </channel>
 
