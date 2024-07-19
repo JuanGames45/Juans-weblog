@@ -1,5 +1,6 @@
 # Juan Games Blog! (pending name lmao)
 You can visit the website clicking [here](www.juangames.com)
+
 License: [GPL 3](https://www.gnu.org/licenses/gpl.html) (GNU General Public License)
 
 ## Third Party Fonts & Code credits
