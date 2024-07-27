@@ -29,9 +29,10 @@ class MyHeader extends HTMLElement {
             <img src="https://www.juangames.com/media/images/backgrounds/banner.png" class="banner">
             <div class="desktopmenu">
                 
-                <a href="https://www.juangames.com/index"><button class="menuitem" id="homebutton">Home</button></a>
-                <a href="https://www.juangames.com/blog.html"><button class="menuitem">Blog</button></a>
-                <a href="https://www.juangames.com/art"><button class="menuitem">Art</button></a>
+                <a href="https://www.juangames.com/index"><button class="menuitem" id="home">Home</button></a>
+                <a href="https://www.juangames.com/blog.html"><button class="menuitem" 
+                id="blog">Blog</button></a>
+                <a href="https://www.juangames.com/art"><button class="menuitem" id="art">Art</button></a>
                 <div class="dropdown">
                 <a href="https://www.juangames.com/about.html"><button class="dropbtn" id="about"></button></a>
                 <div class="dropdown-content">
