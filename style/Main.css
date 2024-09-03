@@ -35,6 +35,20 @@
 
 }
 
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url('https://www.juangames.com/media/fonts/LiberationMono.ttf');
+}
+
+@font-face {
+    font-family: 'Liberation Mono Italic';
+    src: url('https://www.juangames.com/media/fonts/LiberationMono-Italic.ttf');
+}
+@font-face {
+    font-family: 'Liberation Mono Bold';
+    src: url('https://www.juangames.com/media/fonts/LiberationMono-Bold.ttf');
+}
+
 /*Mobile layout. Changes made here will only make effect
 when the page has a lower resolution than the one set*/
 
@@ -74,6 +88,8 @@ when the page has a lower resolution than the one set*/
 
     h1, h2, h3, h4, h5, h6{
         font-family: 'Liberation Serif'!important;
+        margin-top:10px;
+        margin-bottom: -5px;
     }
     h1{
         font-size: 23pt !important;
@@ -96,7 +112,13 @@ when the page has a lower resolution than the one set*/
 
     #ptitle{
         margin-top: 20px !important;
-        margin-bottom: -3px;
+        margin-bottom: 10px !important;
+    }
+
+    time{
+        font-size: 13pt;
+        font-family: 'Liberation Serif';
+        font-style: italic;
     }
     
 }
@@ -125,12 +147,15 @@ when the page has a lower resolution than the one set*/
     }
     h1, h2, h3, h4, h5, h6{
         font-family: 'Liberation Serif'!important;
+        margin-top:10px;
+        margin-bottom: -5px;
     }
     h1{
-        font-size: 40pt !important;
+        font-size: 32pt !important;
     }
     h2{
-        font-size: 35pt;
+        font-size: 29pt;
+        
     } 
     h3{
         font-size: 30pt;
@@ -146,7 +171,12 @@ when the page has a lower resolution than the one set*/
     }
     #ptitle{
         margin-top: 1px !important;
-        margin-bottom: -3px !important;
+        margin-bottom: 10px !important;
+    }
+    time{ 
+        font-size: 15pt;
+        font-family: 'Liberations Serif';
+        font-style: italic;
     }
     
 }
