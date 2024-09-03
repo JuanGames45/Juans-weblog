@@ -33,6 +33,7 @@ class MyHeader extends HTMLElement {
                 <a href="https://www.juangames.com/blog.html"><button class="menuitem" 
                 id="blog">Blog</button></a>
                 <a href="https://www.juangames.com/art"><button class="menuitem" id="art">Art</button></a>
+                <a href="https://www.juangames.com/links"><button class="menuitem" id="art">Links</button></a>
                 <div class="dropdown">
                 <a href="https://www.juangames.com/about.html"><button class="dropbtn" id="about"></button></a>
                 <div class="dropdown-content">
