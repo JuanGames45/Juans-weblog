@@ -193,6 +193,7 @@ when the page has a lower resolution than the one set*/
    border-top: solid 3px #adadad;
    border-right: solid 3px #6e6e6e;
    border-bottom: solid 3px #6e6e6e;
+   box-shadow: 2px 2px 5px ;
 }
 
 .mobilemenu{
@@ -206,7 +207,7 @@ when the page has a lower resolution than the one set*/
 .menuitem, .dropbtn{
     background-color: #808080;
     width: 15%;
-    height: 60px;
+    height: 58px !important;
     font-family: 'Liberation Serif' !important;
     font-weight: bold;
     overflow: hidden;
@@ -218,6 +219,7 @@ when the page has a lower resolution than the one set*/
     border-bottom: solid 4px #6e6e6e;
     float: left;
     cursor: grab;
+    box-shadow: 2px 2px 5px;
    
 }
 .dropbtn{
@@ -249,6 +251,7 @@ when the page has a lower resolution than the one set*/
     transform: translate(1px); 
     border-right: solid 2px #6e6e6e;
     border-bottom: solid 2px #6e6e6e;
+    box-shadow: 2px 1px 5px;
 }
 .dropbtn:active{
    
@@ -260,7 +263,7 @@ when the page has a lower resolution than the one set*/
   }
   
 .dropdown-content {
-    margin-top:58px;
+    margin-top:56px !important;
     font-family: menu;
     font-weight: bolder;
     font-size: 24pt;
@@ -270,6 +273,7 @@ when the page has a lower resolution than the one set*/
     width:133%;
     background: #cfcfcf; 
     float: left;
+    box-shadow: 5px 5px 5px grey;
   }
   
 .dropdown-content a {
