@@ -108,7 +108,7 @@ class MyFooter extends HTMLElement {
         <footer>
             
 
-            <p>🄯 Juan Games 2024.</p>
+            <p><a href="https://www.juangames.com/about/legal#copyleft">🄯 Copyleft</a> by Juan Games 2024.</p>
             
 
         </footer>

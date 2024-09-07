@@ -178,6 +178,10 @@ when the page has a lower resolution than the one set*/
         font-family: 'Liberations Serif';
         font-style: italic;
     }
+    marquee{
+        font-size: 17pt;
+        font-family: 'Liberation Serif';
+    }
     
 }
 
