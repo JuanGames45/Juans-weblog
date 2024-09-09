@@ -65,32 +65,7 @@ class MySidebar extends HTMLElement {
         <div id="sidebar">
         <div class="sidebar">
 
-            <p>Go ahead and leave me.
-                I think I prefer to stay inside.
-                Maybe you'll find someone else
-                To help you.
-                Maybe Black Mesa...
-                THAT WAS A JOKE, HA HA, FAT CHANCE.
-                
-                Anyway this cake is great
-                It's so delicious and moist
-                
-                Look at me still talking when there's science to do
-                When I look out there
-                It makes me GLaD I'm not you.
-                
-                I've experiments to run
-                There is research to be done
-                On the people who are
-                Still alive.
-                
-                And believe me I am still alive
-                I'm doing science and I'm still alive
-                I feel FANTASTIC and I'm still alive
-                While you're dying I'll be still alive
-                And when you're dead I will be still alive
-                Still alive
-                Still alive. </p>
+            <p>I gotta get to work on this sidebar :V </p>
 
             
 
