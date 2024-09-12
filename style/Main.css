@@ -373,6 +373,26 @@ p, h1, h2, h3, h4, h5, h6{
    
 }
 
+.marquee{
+    width: 86%;
+    display: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marquee p{
+    padding-left: 100%;
+    animation: 8s marquee linear infinite;
+    display: inline-block;
+}
+
+@keyframes marquee{
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
 
 /*Images on the main section, doesn not apply to,
 let's say, the sidebar*/
