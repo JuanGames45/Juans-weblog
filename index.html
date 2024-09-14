@@ -10,6 +10,32 @@
                 text-align: center; 
             }
 
+            .marquee{
+                width: 86%;
+                display: border-box;
+                overflow: hidden;
+                white-space: nowrap;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #e0dfdf;
+                border-radius: 10px;
+                height: 45px;
+                
+            }
+
+            .marquee p{
+                padding-left: 100%;
+                animation: 8s marquee linear infinite;
+                display: inline-block;
+                height: 0px;
+                margin-top: 10px;
+            }
+
+            @keyframes marquee{
+                0%   { transform: translate(0, 0); }
+                100% { transform: translate(-100%, 0); }
+            }
+
             
         </style>
     </head>
@@ -26,7 +52,7 @@
 
             <p id="hometitle"><b>Welcome to my blog!</b> I'm just a computer nerd who
             loves drawing, videogames and retro stuff.</p>
-            <div class="marquee"><p>Finally got to work on the site again lmao</p></div>
+            <div class="marquee"><p>DNS domain has been (sorta) set propperly</p></div>
 	<article>
 	    <h1 id="ptitle">July update</h1>
 	    <time>23rd of July 2024, 3:05am</time>
