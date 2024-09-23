@@ -1,8 +1,8 @@
 # Juan's Weblog
 You can visit the website clicking [here](www.juangames.com)
 
-License: [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) (Attribution-Nonderivatives 4.0 International)
-This entire blog is licensed under CC BY-ND 4.0 unless stated otherwise
+License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Attribution-Sharealike 4.0 International)
+This entire blog is licensed under CC BY-SA 4.0 unless stated otherwise
 
 ## Third Party Fonts & Code credits
 
