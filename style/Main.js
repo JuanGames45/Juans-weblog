@@ -18,7 +18,7 @@ class MyHeader extends HTMLElement {
     <link rel="stylesheet" type="text/css" href="https://www.juangames.com/style/Main.css">
     <link rel="alternate" type="application/rss+xml" title="JG blog RSS" href="https://www.juangames.com/rss.xml">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Juan Games Blog</title>
+    <title>Juan's Weblog</title>
     <link rel="icon" type="image/x-con" href="https://www.juangames.com/media/images/favicon.png">
 
     </head>
@@ -64,6 +64,14 @@ class MySidebar extends HTMLElement {
         this.innerHTML = `
         <div id="sidebar">
         <div class="sidebar">
+            <form method="get" id="search" action="http://duckduckgo.com/">
+              <input type="hidden" name="sites" value="juangames.com"/>
+              <input type="hidden" name="k8" value="#444444"/>
+              <input type="hidden" name="k9" value="#D51920"/>
+              <input type="hidden" name="kt" value="h"/>
+              <input type="text" name="q" maxlength="255" placeholder="Search posts or pages"/>
+              <input type="submit" value="Go!" />
+            </form>
 
             <p>I gotta get to work on this sidebar :V </p>
 
@@ -81,7 +89,7 @@ class MyFooter extends HTMLElement {
         this.innerHTML = `
         <div class="footerwrapper">
         <footer>
-            
+            <img src="media/images/by-sa.svg">
 
             <p><a href="https://www.juangames.com/about/legal#copyleft">🄯 Copyleft</a> by Juan Games 2024.</p>
             
