@@ -64,7 +64,7 @@ class MySidebar extends HTMLElement {
         this.innerHTML = `
         <div id="sidebar">
         <div class="sidebar">
-            <form method="get" id="search" action="http://duckduckgo.com/">
+            <form method="get" id="search" action="https://duckduckgo.com/">
               <input type="hidden" name="sites" value="juangames.com"/>
               <input type="hidden" name="k8" value="#444444"/>
               <input type="hidden" name="k9" value="#D51920"/>
