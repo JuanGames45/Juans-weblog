@@ -17,3 +17,4 @@ Fonts:
 
 Code:
 * [Nutshell](https://ncase.me/nutshell/) (Expandable, embeddable explanations by Nicky Case)
+* Search bar: It's basically an html form using [duckduckgo](https://duckduckgo.com) search engine to filter search on my website.
