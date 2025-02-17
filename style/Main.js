@@ -1,4 +1,7 @@
 
+// @license magnet:?xt=urn:btih:0b31508aeb0634b347b8270c7bee4d411b5d4109&dn=agpl-3.0.txt AGPL-3.0
+
+
 
 var links = document.querySelectorAll(".link");
 for(link of links){
@@ -9,6 +12,7 @@ for(link of links){
     e.target.classList.add("active");
   });
 }
+
 //Plantilla cabecera
 class MyHeader extends HTMLElement {
     connectedCallback () {
@@ -117,3 +121,5 @@ Nutshell.setOptions({
     lang: 'en', // Language (default: 'en', which is English)
     dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
 });
+
+//@license-end
