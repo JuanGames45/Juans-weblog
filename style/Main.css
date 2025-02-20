@@ -110,7 +110,7 @@ when the page has a lower resolution than the one set*/
         font-size: 13pt;
     }
 
-    #ptitle{
+    .ptitle{
         margin-top: 20px !important;
         margin-bottom: 10px !important;
     }
@@ -169,7 +169,7 @@ when the page has a lower resolution than the one set*/
     h6{
         font-size: 20pt;
     }
-    #ptitle{
+    .ptitle{
         margin-top: 1px !important;
         margin-bottom: 10px !important;
     }
