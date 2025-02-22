@@ -188,6 +188,10 @@ when the page has a lower resolution than the one set*/
 
 /*Menus stuff, font is on the item*/
 
+.text-browser{
+	display:none;
+}
+
 .desktopmenu{
     background-color: #bbbbbb ;
     height: 61.5px;
