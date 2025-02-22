@@ -363,6 +363,11 @@ footer{
     overflow: hidden;
     border-top: dotted 5px;
 }
+.rm{
+    text-align: right;
+    margin-top: -15px;
+    
+}
 /*This is the position of the darkmode switch, until
 I find a way to make it work on multiple (static) pages
 it will stay there.*/
