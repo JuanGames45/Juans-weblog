@@ -95,7 +95,7 @@ class MyFooter extends HTMLElement {
         <footer>
             <img src="https://www.juangames.com/media/images/by-sa.svg">
 
-            <p><a href="https://www.juangames.com/about/legal#copyleft">🄯 Copyleft</a> by Juan Games 2024.</p>
+            <p><a href="https://www.juangames.com/about/legal#copyleft">🄯 Copyleft</a> by Juan Games 2024-2025.</p>
             
 
         </footer>
